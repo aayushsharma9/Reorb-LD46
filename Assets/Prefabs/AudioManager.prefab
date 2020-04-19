@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4014056632917197952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3306516700913115463}
+  - component: {fileID: 2895383979416590690}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3306516700913115463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4014056632917197952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2895383979416590690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4014056632917197952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa782dfb849ba740a83eac73e1bbd58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: 
+    clip: {fileID: 8300000, guid: ae524261a22955e4e93f3f59e22010bd, type: 3}
+    volume: 0.2
+    pitch: 1.5
+    playOnAwake: 0
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: b87dd02db4e7d584c83fd274363a7d14, type: 3}
+    volume: 0.2
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: dada4b6ee4e855445be0ecc87a1ede77, type: 3}
+    volume: 0.5
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: d92132b7f234a6f4ba5a2cc9126d6815, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: abce82cf7aed04a42ae7a626b1ef6387, type: 3}
+    volume: 0.2
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: 
+    clip: {fileID: 8300000, guid: b8f1f4dea0845a143ae06b90912da781, type: 3}
+    volume: 1
+    pitch: 1
+    playOnAwake: 1
+    loop: 1
+    audioSource: {fileID: 0}
